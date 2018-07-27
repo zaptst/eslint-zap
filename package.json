@@ -1,0 +1,34 @@
+{
+  "name": "eslint-zap",
+  "version": "0.0.0",
+  "description": "ESLint ZAP Formatter",
+  "main": "index.js",
+  "repository": "https://github.com/zaptst/eslint-zap",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "reporter",
+    "formatter",
+    "plugin",
+    "zap",
+    "zaptst",
+    "tap",
+    "junit",
+    "lint",
+    "linter",
+    "results",
+    "output"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^5.2.0",
+    "spawndamnit": "^2.0.0"
+  }
+}
